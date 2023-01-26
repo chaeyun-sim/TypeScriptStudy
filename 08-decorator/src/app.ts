@@ -120,6 +120,4 @@ class Printer {
 const p = new Printer();
 
 const button = document.querySelector('button')!;
-// button.addEventListener('click', p.showMessage.bind(p));  // bind showMessage to p
-// // showMessage 대신 p 를 참조하여 다시 이 객체를 참조하도록 하는 것
 button.addEventListener('click', p.showMessage)
