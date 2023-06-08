@@ -1,0 +1,13 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "module": "ESNext",
+    "outDir": "dist",
+    "moduleDetection": "force",
+  },
+  "ts-node": {   // ts-node 사용을 위한 옵션
+    "esm": true,
+  }
+}
